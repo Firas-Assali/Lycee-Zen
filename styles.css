@@ -308,18 +308,18 @@ header::before {
   transform: translateY(calc(50% + 2rem));
 }
 
-.stories__grid {
+.posts__grid {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
-.stories__card {
+.posts__card {
   padding: 1rem;
 }
 
-.stories__content {
+.posts__content {
   position: relative;
   isolation: isolate;
   margin-bottom: 2rem;
@@ -328,7 +328,7 @@ header::before {
   gap: 1rem;
 }
 
-.stories__content span {
+.posts__content span {
   padding: 7px 10px;
   font-size: 2rem;
   color: var(--white);
@@ -336,7 +336,7 @@ header::before {
   border-radius: 100%;
 }
 
-.stories__content::after {
+.posts__content::after {
   position: absolute;
   content: "";
   height: 100%;
@@ -348,30 +348,30 @@ header::before {
   z-index: -1;
 }
 
-.stories__content p {
+.posts__content p {
   line-height: 1.5rem;
   color: var(--text-light);
 }
 
-.stories__author {
+.posts__author {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.stories__author img {
+.posts__author img {
   max-width: 100px;
   border-radius: 100%;
 }
 
-.stories__author__details h4 {
+.posts__author__details h4 {
   margin-bottom: 5px;
   font-size: 1.1rem;
   font-weight: 500;
   color: var(--text-dark);
 }
 
-.stories__author__details h6 {
+.posts__author__details h6 {
   font-size: 1rem;
   font-weight: 500;
   color: var(--text-light);
@@ -548,7 +548,7 @@ header::before {
     column-gap: 1rem;
   }
 
-  .stories__grid {
+  .posts__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
@@ -603,7 +603,7 @@ header::before {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .stories__grid {
+  .posts__grid {
     grid-template-columns: repeat(1, 1fr);
   }
 
