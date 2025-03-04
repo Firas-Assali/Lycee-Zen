@@ -610,3 +610,34 @@ header::before {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+.subscribe {
+  padding-inline: 1rem;
+  padding-block: 4rem 3rem;
+  margin-bottom: 5rem;
+  background-color: var(--primary-color);
+}
+
+.subscribe form {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  transform: translateY(calc(50% + 2rem));
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 10px 50px var(--primary-color);
+}
+
+.subscribe input {
+  width: 100%;
+  padding-inline: 1rem;
+  font-display: 1rem;
+  color: var(--text-dark);
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.subscribe .btn {
+  padding: 1.5rem ;
+}
